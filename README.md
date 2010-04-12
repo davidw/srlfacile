@@ -7,3 +7,4 @@ Per generare i file .html dai file .rvt:
 
     make
 
+Il file che definisce il layout del sito &egrave; `layout.rvt`.
