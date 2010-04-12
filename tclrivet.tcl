@@ -47,6 +47,14 @@ proc include { filename } {
     close $fl
 }
 
+proc = {varname} {
+    upvar $varname x
+    if { [info exists x] } {
+	eval $tclrivetparser::outputcmd $x
+    } else {
+    }
+}
+
 # We need to fill these in, of course.
 
 proc makeurl {} {}

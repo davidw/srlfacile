@@ -12,23 +12,24 @@ proc getlayout {filehandle} {
 }
 
 proc render {filename} {
-    namespace eval page {}
-
-    set htmlfile "[file rootname $fl].html"
+    set htmlfile [file rootname $filename].html
     set htmlfileexists [file exists $htmlfile]
     if { $htmlfileexists } {
 	set htmlmtime [file mtime $htmlfile]
-	set rvtmtime [file mtime $fl]
+	set rvtmtime [file mtime $filename]
     }
 
     if { $htmlfileexists && $htmlmtime > $rvtmtime } {
 	puts "$htmlfile up to date"
-	continue
+	return
     }
 
+    puts -nonewline "Processing $filename ..."
+
+    namespace eval page {}
     set ::page::obuffer ""
     tclrivetparser::setoutputcmd { append ::page::obuffer }
-    namespace eval page [list rivet $fl]
+    namespace eval page [list rivet $filename]
 
     set ofile [open $htmlfile w]
 
@@ -38,6 +39,7 @@ proc render {filename} {
     close $ofile
 
     namespace delete page
+    puts "done"
 }
 
 proc all {} {
