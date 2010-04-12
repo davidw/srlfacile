@@ -27,3 +27,9 @@ h3 {
 h4 {
     font-weight: bold;
 }
+
+.action {
+    background-color: #FFFFCC;
+    font-size: 16px;
+    font-weight: bold;
+}

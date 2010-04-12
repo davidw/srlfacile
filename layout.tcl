@@ -17,9 +17,10 @@ proc render {filename} {
     if { $htmlfileexists } {
 	set htmlmtime [file mtime $htmlfile]
 	set rvtmtime [file mtime $filename]
+	set layoutmtime [file mtime layout.rvt]
     }
 
-    if { $htmlfileexists && $htmlmtime > $rvtmtime } {
+    if { $htmlfileexists && $htmlmtime > $rvtmtime && $htmlmtime > $layoutmtime} {
 	puts "$htmlfile up to date"
 	return
     }
