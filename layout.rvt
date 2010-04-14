@@ -27,10 +27,13 @@
       </div>
 
       <div class="span-6 action">
+	<a href="todo.html">Come Contribuire</a>
+      </div>
+      <div class="span-6 action">
 	<a href="http://groups.google.com/group/srlfacile">Gruppo di discussione</a>
       </div>
 
-      <div class="span-14 last">
+      <div class="span-8 last">
 	&nbsp;
       </div>
 

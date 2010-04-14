@@ -50,7 +50,7 @@ proc include { filename } {
 proc = {varname} {
     upvar $varname x
     if { [info exists x] } {
-	eval $tclrivetparser::outputcmd $x
+	eval $tclrivetparser::outputcmd [list $x]
     } else {
     }
 }
