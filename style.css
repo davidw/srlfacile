@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    background-color: #F6F7F6;
 }
 
 .title {
@@ -8,6 +9,7 @@ body {
 }
 
 a {
+    color: #CE2B37;
     text-decoration: none;
 }
 
@@ -32,10 +34,14 @@ h4 {
     font-weight: bold;
 }
 
-.action {
-    background-color: #FFFFCC;
-    font-size: 18px;
+.action a {
+    color: #CE2B37;
+    font-size: 22px;
     font-weight: bold;
+}
+
+.action a:visited {
+    color: #CE2B37;
 }
 
 #bannercode {
