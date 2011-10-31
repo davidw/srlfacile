@@ -1,5 +1,9 @@
   <div class="span-24 box">
+
     <p>
+      <img style="float: left; margin-right: 18px; margin-bottom: 12px; " border="0" src="/images/button_125x125px.jpg" alt="SrlFacile Banner"
+	title="Firma la petizione contro SrL eccessivamente costose e burocratiche"></img>
+
       <strong>In Italia, creare una SrL costa migliaia di Euro, senza contare il capitale sociale,
 	che deve essere di almeno 10000 Euro.</strong>  Per un paio di ragazzi con un'idea innovativa e
       poco altro, non sono pochi soldi.  Con alcuni computer e un server situato da qualche
@@ -21,9 +25,17 @@
       <strong>Vogliamo che la SrL sia alla portata di tutti, e non solo chi ha gi&agrave; i soldi!</strong>
     </p>
 
+
+    <div>
+      <script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0An76R90VwaRodGdDdkkzV3NQb0F6YkN3WUFuNXZCSmc&transpose=0&headers=1&range=A1%3AC8&gid=0&pub=1","options":{"vAxes":[{"title":null,"minValue":null,"maxValue":null}],"reverseCategories":false,"title":"Costi Startup: Italia / US","backgroundColor":"#FFFFFF","legend":"top","logScale":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"reverseAxis":false,"isStacked":false,"width":950,"height":400},"state":{},"chartType":"ColumnChart","chartName":"Chart 1"} </script>
+      <br/>
+	<a href="https://docs.google.com/spreadsheet/ccc?key=0An76R90VwaRodGdDdkkzV3NQb0F6YkN3WUFuNXZCSmc&hl=en_US#gid=0">Foglio di calcolo Su Google Docs</a>
+    </div>
+
+
   </div>
 
-  <div class="span-12">
+  <div class="span-10 append-1">
     <h2><a href="benefici.html">Vincono Tutti - I Benefici</a></h2>
 
     <h4>Pi&ugrave; aziende significa maggiori introiti per lo stato sotto forma di tasse sui
@@ -34,7 +46,7 @@
     <h4>&Egrave; un'idea "bipartisan"</h4>
   </div>
 
-  <div class="span-12 last">
+  <div class="span-13 last">
     <h2><a href="obiezioni.html">Ma...  Se...  Per&ograve;... - Le Obiezioni</a></h2>
 
     <h4>Nascono comunque tante aziende.  La gente trova un modo se vuole, no?  Non sempre!</h4>
@@ -74,7 +86,9 @@
   </div>
 
   <div class="span-24 last">
-    L'iniziativa &egrave; un'idea di <a href="http://www.welton.it">David Welton</a>, uno
-    statunitense trapiantato in Italia, con un enorme rispetto per le capacit&agrave;
-    innovative e lavorative del popolo Italiano, ma meno contento della situazione burocratica.
+    <small>
+      L'iniziativa &egrave; un'idea di <a href="http://www.welton.it">David Welton</a>, uno
+      statunitense trapiantato in Italia, con un enorme rispetto per le capacit&agrave; innovative e
+      lavorative del popolo Italiano, ma meno contento della situazione burocratica.
+    </small>
   </div>

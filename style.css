@@ -1,3 +1,7 @@
+body {
+    font-size: 16px;
+}
+
 .title {
     font-weight: bold;
     font-size: 50px;
@@ -30,7 +34,7 @@ h4 {
 
 .action {
     background-color: #FFFFCC;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
