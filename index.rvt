@@ -31,7 +31,7 @@
       Rispetto alle altre esigenze di una piccola startup che opera in un settore come web o applicazioni mobile, il costo di costituire la societ&agrave; &egrave; troppo alto:
     </p>
     <div>
-      <script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0An76R90VwaRodGdDdkkzV3NQb0F6YkN3WUFuNXZCSmc&transpose=0&headers=1&range=A1%3AC8&gid=0&pub=1","options":{"vAxes":[{"title":null,"minValue":null,"maxValue":null}],"reverseCategories":false,"title":"Costi Startup: Italia / US","backgroundColor":"#FFFFFF","legend":"top","logScale":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"reverseAxis":false,"isStacked":false,"width":950,"height":400},"state":{},"chartType":"ColumnChart","chartName":"Chart 1"} </script>
+    <img src="/images/chart_1.png">
       <br/>
 	<a href="https://docs.google.com/spreadsheet/ccc?key=0An76R90VwaRodGdDdkkzV3NQb0F6YkN3WUFuNXZCSmc&hl=en_US#gid=0">Foglio di calcolo Su Google Docs</a>
     </div>
@@ -51,9 +51,7 @@
     </p>
 
     <div>
-      <script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0An76R90VwaRodDlIYlN1Zk9JYXlEQXV6bUlRd0h4MUE&transpose=1&headers=1&merge=COLS&range=A1%3AA3%2CH1%3AI3&gid=0&pub=1","options":{"vAxes":[{"title":"","minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":null},"maxValue":null},{"viewWindowMode":"pretty","viewWindow":{}}],"reverseCategories":false,"title":"Costo costizione SrL in mensalit\u00e0 del median household income","backgroundColor":"#FFFFFF","legend":"in","theme":"maximized","logScale":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"reverseAxis":false,"isStacked":false,"width":950,"height":400},"state":{},"view":"{\"columns\":[0,1,2]}","chartType":"ColumnChart","chartName":"Costo costizione SrL in mensalit\u00e0 del median household income"} </script>
-
-
+    <img src="/images/costo_costituzione.png">
       <br/>
 	<a href="https://docs.google.com/spreadsheet/ccc?key=0An76R90VwaRodDlIYlN1Zk9JYXlEQXV6bUlRd0h4MUE&hl=en_US#gid=0">Foglio di calcolo Su Google Docs</a>
     </div>
